@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traversing the DOM</title>
+    <style>
+       div .output{
+           background-color: red;
+       }
+    </style>
+</head>
+
+<body>
+    <div id="message">Message 1</div>
+    <div id="message2">Message 2</div>
+    <div class="output">Test Me 1</div>
+    <div class="output hightlight">Test Me 2</div>
+    <input type="text" name="queryStuff" id="queryStuff" value="Enter Query Here">
+    <input type="button" onclick='mySelection()' value="Get Query">
+    <input type="text" name="last">
+    <div id="pickme">
+        <div class="output">Test me 3</div>
+    </div>
+    <div id="pickme2">
+        <div class="output">Test Me 4</div>
+        <div class="output hightlight">Test Me 5</div>
+        <div class="output">Test me 6</div>
+    </div>
+
+    <div class="output highlight">Test Me 7</div>
+    <div class="output">Test Me 8</div>
+    <div class="output">Test me 9</div>
+    <div class="output highlight">Test me 10</div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
